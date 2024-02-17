@@ -1,0 +1,15 @@
+D:\Maktab - 104 - CSharp\CW17-Razor-ADO-Dapper\CW17-Razor-ADO-Dapper\Contracts\bin\Debug\net8.0\Contracts.deps.json
+D:\Maktab - 104 - CSharp\CW17-Razor-ADO-Dapper\CW17-Razor-ADO-Dapper\Contracts\bin\Debug\net8.0\Contracts.dll
+D:\Maktab - 104 - CSharp\CW17-Razor-ADO-Dapper\CW17-Razor-ADO-Dapper\Contracts\bin\Debug\net8.0\Contracts.pdb
+D:\Maktab - 104 - CSharp\CW17-Razor-ADO-Dapper\CW17-Razor-ADO-Dapper\Contracts\bin\Debug\net8.0\Entities.dll
+D:\Maktab - 104 - CSharp\CW17-Razor-ADO-Dapper\CW17-Razor-ADO-Dapper\Contracts\bin\Debug\net8.0\Entities.pdb
+D:\Maktab - 104 - CSharp\CW17-Razor-ADO-Dapper\CW17-Razor-ADO-Dapper\Contracts\obj\Debug\net8.0\Contracts.csproj.AssemblyReference.cache
+D:\Maktab - 104 - CSharp\CW17-Razor-ADO-Dapper\CW17-Razor-ADO-Dapper\Contracts\obj\Debug\net8.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Maktab - 104 - CSharp\CW17-Razor-ADO-Dapper\CW17-Razor-ADO-Dapper\Contracts\obj\Debug\net8.0\Contracts.AssemblyInfoInputs.cache
+D:\Maktab - 104 - CSharp\CW17-Razor-ADO-Dapper\CW17-Razor-ADO-Dapper\Contracts\obj\Debug\net8.0\Contracts.AssemblyInfo.cs
+D:\Maktab - 104 - CSharp\CW17-Razor-ADO-Dapper\CW17-Razor-ADO-Dapper\Contracts\obj\Debug\net8.0\Contracts.csproj.CoreCompileInputs.cache
+D:\Maktab - 104 - CSharp\CW17-Razor-ADO-Dapper\CW17-Razor-ADO-Dapper\Contracts\obj\Debug\net8.0\Contracts.csproj.CopyComplete
+D:\Maktab - 104 - CSharp\CW17-Razor-ADO-Dapper\CW17-Razor-ADO-Dapper\Contracts\obj\Debug\net8.0\Contracts.dll
+D:\Maktab - 104 - CSharp\CW17-Razor-ADO-Dapper\CW17-Razor-ADO-Dapper\Contracts\obj\Debug\net8.0\refint\Contracts.dll
+D:\Maktab - 104 - CSharp\CW17-Razor-ADO-Dapper\CW17-Razor-ADO-Dapper\Contracts\obj\Debug\net8.0\Contracts.pdb
+D:\Maktab - 104 - CSharp\CW17-Razor-ADO-Dapper\CW17-Razor-ADO-Dapper\Contracts\obj\Debug\net8.0\ref\Contracts.dll

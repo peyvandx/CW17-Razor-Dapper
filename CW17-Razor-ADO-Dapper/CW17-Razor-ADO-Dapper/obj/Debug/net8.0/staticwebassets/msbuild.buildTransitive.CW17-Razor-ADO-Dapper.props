@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CW17-Razor-ADO-Dapper.props" />
+</Project>

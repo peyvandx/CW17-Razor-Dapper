@@ -1,0 +1,11 @@
+D:\Maktab - 104 - CSharp\CW17-Razor-ADO-Dapper\CW17-Razor-ADO-Dapper\Entities\bin\Debug\net8.0\Entities.deps.json
+D:\Maktab - 104 - CSharp\CW17-Razor-ADO-Dapper\CW17-Razor-ADO-Dapper\Entities\bin\Debug\net8.0\Entities.dll
+D:\Maktab - 104 - CSharp\CW17-Razor-ADO-Dapper\CW17-Razor-ADO-Dapper\Entities\bin\Debug\net8.0\Entities.pdb
+D:\Maktab - 104 - CSharp\CW17-Razor-ADO-Dapper\CW17-Razor-ADO-Dapper\Entities\obj\Debug\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Maktab - 104 - CSharp\CW17-Razor-ADO-Dapper\CW17-Razor-ADO-Dapper\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
+D:\Maktab - 104 - CSharp\CW17-Razor-ADO-Dapper\CW17-Razor-ADO-Dapper\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
+D:\Maktab - 104 - CSharp\CW17-Razor-ADO-Dapper\CW17-Razor-ADO-Dapper\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+D:\Maktab - 104 - CSharp\CW17-Razor-ADO-Dapper\CW17-Razor-ADO-Dapper\Entities\obj\Debug\net8.0\Entities.dll
+D:\Maktab - 104 - CSharp\CW17-Razor-ADO-Dapper\CW17-Razor-ADO-Dapper\Entities\obj\Debug\net8.0\refint\Entities.dll
+D:\Maktab - 104 - CSharp\CW17-Razor-ADO-Dapper\CW17-Razor-ADO-Dapper\Entities\obj\Debug\net8.0\Entities.pdb
+D:\Maktab - 104 - CSharp\CW17-Razor-ADO-Dapper\CW17-Razor-ADO-Dapper\Entities\obj\Debug\net8.0\ref\Entities.dll

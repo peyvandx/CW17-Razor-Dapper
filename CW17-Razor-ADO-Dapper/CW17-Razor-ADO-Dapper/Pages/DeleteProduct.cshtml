@@ -1,0 +1,22 @@
+﻿@page
+@model CW17_Razor_ADO_Dapper.Pages.DeleteProductModel
+@{
+}
+
+<div class="container d-flex">
+    @foreach (var product in Model.Products)
+    {
+        <form asp-page-handler="OnPost" method="post">
+            <div class="card m-2" style="width: 18rem;">
+                <input class="visually-hidden" asp-for="@Model.DeletedProductId" value="@product.ProductId" />
+                <div class="card-body">
+                    <h5 class="card-title">@product.Name</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">@product.Title</h6>
+                    <p class="card-text">@product.Description</p>
+                    <a class="card-link disable">@product.Price</a>
+                </div>
+                <button type="submit" class="btn btn-outline-danger disable">Delete</button>
+            </div>
+        </form>
+    }
+</div>

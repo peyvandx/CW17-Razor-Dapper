@@ -1,0 +1,29 @@
+﻿@page
+@model CW17_Razor_ADO_Dapper.Pages.ProductsModel
+@{
+}
+<div class="container d-flex">
+    @foreach (var product in Model.Products)
+    {
+        @* <form asp-page="UpdateProduct" asp-page-handler="OnGet"> *@
+        <div class="card m-2" style="width: 18rem;">
+            <div class="card-body">
+                @* <input class="visually-hidden" value="@product.ProductId" /> *@
+                <h5 class="card-title">@product.Name</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">@product.Title</h6>
+                @foreach (var category in Model.Categories)
+                {
+                    if (product.CategoryId == category.CategoryId)
+                    {
+                        <h6 class="card-subtitle mb-2">Category: @category.CategoryName</h6>
+                    }
+                }
+                <p class="card-text">@product.Description</p>
+                <h6 class="card-subtitle mb-2">@product.Color</h6>
+                <h6 class="card-subtitle mb-2">@product.Price</h6>
+                <a class="btn btn-outline-secondary" asp-page="UpdateProduct" asp-route-productId="@product.ProductId">Update</a>
+            </div>
+        </div>
+        @* </form> *@
+    }
+</div>

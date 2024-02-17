@@ -1,0 +1,39 @@
+﻿@page
+@model CW17_Razor_ADO_Dapper.Pages.UpdateProductModel
+@{
+}
+
+<form class="w-100 d-flex flex-column" method="post" asp-page-handler="OnPost">
+    <input class="visually-hidden" asp-for="UpdatedProduct.ProductId" value="@Model.UpdatedProduct.ProductId" />
+
+    <div class="mb-3">
+        <label asp-for="UpdatedProduct.Name" class="form-label"></label>
+        <input type="text" class="form-control" asp-for="UpdatedProduct.Name">
+    </div>
+    <div class="mb-3">
+        <label asp-for="UpdatedProduct.Title" class="form-label"></label>
+        <input type="text" class="form-control" type="text" asp-for="UpdatedProduct.Title">
+    </div>
+    <div class="mb-3">
+        <label asp-for="UpdatedProduct.Description" class="form-label"></label>
+        <input type="text" class="form-control" type="text" asp-for="UpdatedProduct.Description">
+    </div>
+    <div class="mb-3">
+        <label asp-for="UpdatedProduct.Price" class="form-label"></label>
+        <input type="text" class="form-control" type="text" asp-for="UpdatedProduct.Price">
+    </div>
+    <div class="mb-3">
+        <label asp-for="UpdatedProduct.Color" class="form-label"></label>
+        <input type="text" class="form-control" asp-for="UpdatedProduct.Color">
+    </div>
+    <div class="mb-3">
+        <select asp-for="UpdatedProduct.CategoryId" class="form-select">
+            <option selected>Select Category</option>
+            @foreach (var category in Model.Categories)
+            {
+                <option value="@category.CategoryId">@category.CategoryName</option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-success">Update</button>
+</form>

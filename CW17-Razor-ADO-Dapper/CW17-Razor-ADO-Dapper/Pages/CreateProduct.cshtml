@@ -1,0 +1,37 @@
+﻿@page
+@model CW17_Razor_ADO_Dapper.Pages.CreateProductModel
+@{
+}
+
+<form class="w-100 d-flex flex-column" method="post" asp-page-handler="OnPost">
+    <div class="mb-3">
+        <label asp-for="NewProduct.Name" class="form-label"></label>
+        <input type="text" class="form-control" asp-for="NewProduct.Name">
+    </div>
+    <div class="mb-3">
+        <label asp-for="NewProduct.Title" class="form-label"></label>
+        <input type="text" class="form-control" type="text" asp-for="NewProduct.Title">
+    </div>
+    <div class="mb-3">
+        <label asp-for="NewProduct.Description" class="form-label"></label>
+        <input type="text" class="form-control" type="text" asp-for="NewProduct.Description">
+    </div>
+    <div class="mb-3">
+        <label asp-for="NewProduct.Price" class="form-label"></label>
+        <input type="text" class="form-control" type="text" asp-for="NewProduct.Price">
+    </div>
+    <div class="mb-3">
+        <label asp-for="NewProduct.Color" class="form-label"></label>
+        <input type="text" class="form-control" asp-for="NewProduct.Color">
+    </div>
+    <div class="mb-3">
+        <select asp-for="NewProduct.CategoryId" class="form-select">
+            <option selected>Select Category</option>
+            @foreach (var category in Model.Categories)
+            {
+                <option value="@category.CategoryId">@category.CategoryName</option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-success">Create</button>
+</form>
